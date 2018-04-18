@@ -1,7 +1,8 @@
 /*
- *     startup.c
+ *   
  *
  */
+
 #define GPIO_D 0x40020C00
 #define GPIOD_ODR_LOW ((volatile unsigned char *) (GPIO_D+0x14))
 
